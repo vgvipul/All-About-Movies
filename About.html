@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="project.css">
+<script>
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "#626262";
+}
+
+</script>
+ 
+</head>
+<body>
+<div id="main">
+<header>
+<br/><br/>
+ <span id="toggle" align="left"style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<h1 id="heading">A &nbsp L &nbsp L<br/> A &nbsp B &nbsp O &nbsp U  &nbspT <br/> M  &nbsp O &nbsp V &nbsp I &nbsp E &nbsp S</h1>
+<br/><br/>
+</header>
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p><u>Categories</u></p>
+  <a href="http://www.imdb.com/search/title?genres=thriller&title_type=feature&sort=num_votes,desc" target="_blank">Thriller</a>
+  <a href="http://www.imdb.com/search/title?title_type=feature&genres=romance&sort=num_votes,desc" target="_blank">Romance</a>
+  <a href="http://www.imdb.com/genre/horror" target="_blank">Horror</a>
+  <a href="http://www.imdb.com/search/title?genres=comedy&title_type=feature&sort=num_votes,desc" target="_blank">Comedy</a>
+  <a href="http://www.imdb.com/search/title?title_type=feature&genres=action&sort=num_votes,desc" target="_blank">Action</a>
+  <a href="http://www.imdb.com/search/title?title_type=feature&genres=adventure&sort=num_votes,desc" target="_blank">Adventure</a>
+  <a href="http://www.imdb.com/search/title?title_type=feature&genres=animation&sort=num_votes,desc" target="_blank">Animation</a> 
+  <a href="http://www.imdb.com/search/title?title_type=feature&genres=mystery&sort=num_votes,desc" target="_blank">Mystery</a>
+  </div>
+
+<br/>
+<h1>About Us:-</h1>
+<h3>We are a group of independent and passionate web developer.</h3>
+<p>Here we are to help you choose your favourite movies in no time and get all the movie genres at one place.</p>
+<img id="about" src="http://9.s.dziennik.pl/pliki/7311000/7311540-kino-900-600.jpg" alt="Sorry" >
+
+<footer>
+<pre>      Developed by: NIKET,VIPUL,VISHARAD                                                                                                                                                  Copyright &copy; 3KINGS</pre>
+</footer>
+</body>
+</html>
